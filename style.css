@@ -1,0 +1,53 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+}
+/* Dinh dang header*/
+.header{
+	background-color: #70badc;
+	color: #e6dfdf;
+	padding: 10px;
+	text-align: center;
+}
+/*thanh dieu huong*/
+.topnav{
+	overflow: hidden;
+	background-color: #58257b;
+}
+/*link dieu huong*/
+.topnav a{
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.topnav a:hover{
+	background-color: #db7093;
+	color: white;
+	font-weight: bold;
+}
+/*tao ba cot*/
+/*tao ba cot bang nhau.float canh nhau*/
+.column{
+	float: left;
+	padding: 10px;
+}
+/*cot ben trai va phai*/
+.column.side{
+	width: 25%;
+}
+.column.middle{
+	width: 50%;
+}
+/*clear float khac au cac cot*/
+}
+.footer{
+	background-color: #e9d8f4;
+	color: blue;
+	padding: 5px;
+	text-align: center;
+}
